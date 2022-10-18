@@ -1,0 +1,68 @@
+To day's Topics
+1. Open folder Day-5 G-3 in VS Code hint: from address bar type cmd & type code . enter
+2. Create day5Index.html
+3. Create day5Style.css
+4. Select day5Index.html
+5. Create HTML boiler plate
+6. Write title as Project-1
+7. Write within body with comments
+8. <!-- Content & Header Part Start --> & copy line down. Also change it to End
+9. Create a div with class cont hint: .cont
+10. Crate a div with class head within cont hint: .head
+11. Crate a div with class logo within head hint: .logo & copy down. Also change it to menu
+12. Open day5Style.css and write all selector such as following
+	*{}, .cont{}. .head{}, .logo{}, .menu{}
+13. .cont{
+	width:1200px;
+	margin:0 auto;
+	} 
+14. .head{
+	width:100%;
+	height:100px;
+	background:aqua;
+	}
+15. Select day5Index.html &  in logo div write
+	<img src="#">
+	
+16. Create a folder named images
+16. goto https://iist-mirpur.edu.bd & copy iist logo image to your images folder
+17. Select day5Index.html &  in  logo div write
+	<div class="logo">
+	<img src="images/cropped-iist-logo-2.png">
+	<p>Ideal Institute of Science & Technology</p>
+	</div>
+18.  in menu div write ul>li>a>Home
+19. <ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Gellary</a></li>
+	<li><a href="#">Contact</a></li>
+
+    </ul>
+20. Select day5Style.css
+21. .logo{
+	float:left;
+	padding:20px;
+	}
+22. .menu{
+	float:right;
+	}
+23. .menu ul{
+	list-style:none;
+	}
+24. .menu ul li{
+	display:inline-block;
+	}
+25. .menu ul li a{
+	text-decoration:none;
+	padding-right:20px;
+	}
+26. .logo p{
+	float:right;
+	padding:20px;
+	}
+27. *{
+	margin:0;
+	padding:0;
+}
+	
