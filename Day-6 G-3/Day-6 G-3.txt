@@ -1,0 +1,59 @@
+To day's Topics
+1. Open folder Day-6 G-3 in VS Code hint: from address bar type cmd & type code . enter
+2. Select day6Index.html
+3. Write within body with comments
+4. <!-- Slider Part Start --> & copy line down. Also change it to End
+5. Create a div with class slider hint: .slider
+6. Open day6Style.css and write the selector such as following
+	.slider{}
+
+/* Slider Part Start */
+7. Slider width, height, margin & background setting with image & linear-gradient
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    background:linear-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 60vh;
+}
+N.B. HTML Color Codes Link: https://htmlcolorcodes.com/
+8. Insert a text, a paragraph & a button using a tag in day5Index usins h1 tag
+9. In CSS file write code for h1 to set text in middle and also its color
+.slider h1{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    color: #fff;
+
+}
+10. In CSS file write code for p to set paragraph in middle and also its color
+.slider p{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    text-align: center;
+    color: #ccc;
+
+}
+11. In CSS file write code for a to set button in middle and also its color
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    background: pink;
+
+}
+12. In CSS file write code for a to set button hover color
+.slider a:hover{
+    background: red;
+    color: #fff;
+}
+/* Slider Part End */
+N.B. HTML Color Codes Link: https://htmlcolorcodes.com/
+	
