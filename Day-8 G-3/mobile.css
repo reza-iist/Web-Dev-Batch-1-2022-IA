@@ -1,0 +1,56 @@
+body{
+    background: green;
+}
+
+.slider{
+    width: 500px;
+}
+.slider h1{
+    font-size: 18px;
+}
+.slider p{
+    left: 35%;
+    width: 250px;
+   
+
+}
+.slider a{
+    top: 62%;
+    left: 50%;
+    padding: 5px 10px;
+
+}
+/* header part */
+.cont{
+    width: 500px;
+    height: 60px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.head{
+    height: 60px;
+}
+.logo{
+    padding: 5px;
+    line-height: 50px;
+}
+.menu{
+    float:right;
+    line-height: 50px;
+}
+/* Hero part */
+.hero{
+    width: 500px;
+}
+.services-box{
+    height: 600px;
+}

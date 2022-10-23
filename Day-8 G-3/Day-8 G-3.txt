@@ -1,0 +1,18 @@
+To day's Topics
+1. Open folder Day-8 G-3 in VS Code hint: from address bar type cmd & type code . enter
+2. Select day8Index.html
+3. Write within body with comments
+4. <!-- Hero Part Start --> & copy line down. Also change it to End
+5. Create a section with class hero hint: .hero and inside there create 2 div named title & services-box
+6. In title div set h1 for title and p for description 
+7. In services-box insert a card dive and set img,p & a for button
+8. Open day8Style.css 
+9./*  Responsive Part Start */ & copy line down. Also change it to End
+10. Write the selector such as following
+	.title{} , .services-box{}, .card{}
+ 
+11. According to design thinking set all properties
+
+
+
+	

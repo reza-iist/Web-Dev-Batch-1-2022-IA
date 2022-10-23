@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background: aqua;
+}
+.logo{
+    padding: 20px;
+    float: left;
+    line-height: 60px;
+}
+.logo p{
+    float: right;
+    padding-left: 20px;
+    font-size: 25px;
+    color: tomato;
+    /* line-height: 60px; */
+}
+.menu{
+    float:right;
+    line-height: 100px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    /* padding-top: 20px; */
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.menu ul li a:hover{
+    background: rgb(28, 244, 4);
+    padding: 10px;
+}
+/* Slider Part Start */
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    background:linear-gradient(45deg,rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ;
+    /* background:linear-gradient(145deg,red,green),url(./images/electrical-lab-5.jpg) ; */
+    /* background:radial-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ; */
+    /* background:conic-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ; */
+    /* background:radial-gradient(closest-side at 60% 55%, red, yellow, black),url(./images/electrical-lab-5.jpg) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 60vh;
+}
+.slider h1{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    color: #fff;
+
+}
+.slider h3{
+    color: yellow;
+}
+.slider p{
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    text-align: center;
+    color: #ccc;
+
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    background: pink;
+
+}
+.slider a:hover{
+    background: red;
+    color: #fff;
+}
+/* Slider Part End */
+/* Hero Part Start */
+.hero{
+    width: 1200px;
+    margin: 40px auto;
+}
+.hero span{
+    color:tomato;
+}
+.title{
+    text-align: center;
+}
+.services-box{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(auto-fit,minmax(185px,auto));
+    gap: 5px;
+    text-align: center;
+    height: 300px;
+    /* background: #ccc; */
+}
+.card{
+    background:pink;
+    padding-top: 15px;
+}
+.card p{
+    padding: 30px 10px;
+}
+.card a{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    background: tomato;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+.card a:hover{
+    background: rgb(248, 40, 4);
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* margin: 10px 120px; */
+}
+/* Hero Part End */
+
+/* For Responsive Start */
+
+
+@media only screen and (max-width: 600px) {
+    .cont{
+        width: 500px;      
+    }
+    .head{
+        height: 60px; 
+    }
+    .logo{
+        padding: 10px;
+        line-height: 40px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .menu{
+        
+        line-height: 60px;
+    }
+   
+    .menu ul li a{  
+        font-size: 15px;
+    }
+    /* Slider Part Start */
+.slider{
+    width: 500px;
+}
+.slider h1{
+    top: 34%;
+    color: rgb(244, 44, 44);
+ font-size: 18px;
+}
+
+.slider p{
+    
+    top: 40%;
+   
+    color: rgb(82, 5, 246);
+
+}
+.slider a{
+    
+    top: 57%;
+    left: 55%;
+     padding: 5px 10px;
+
+}
+
+/* Slider Part End */
+/* Hero part start*/
+.hero{
+    width: 500px;
+}
+.card{
+    height: 280px;
+}
+/* Hero part end*/
+       
+}
