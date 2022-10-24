@@ -1,0 +1,11 @@
+To day's Topics
+1. Open folder Day-9 G-3 in VS Code hint: from address bar type cmd & type code . enter
+2. Create footer-part
+3. create footer-main & footer-bottom
+4. 3 coloumns in footer-main
+5. 1 col in footer-bottom with less with then main footer
+6. Make it responsive
+
+
+
+	
