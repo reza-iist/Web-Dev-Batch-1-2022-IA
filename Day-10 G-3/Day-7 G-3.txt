@@ -1,0 +1,62 @@
+To day's Topics
+1. Open folder Day-7 G-3 in VS Code hint: from address bar type cmd & type code . enter
+2. Select day7Style.css
+3. /*  Responsive Part Start */ & copy line down. Also change it to End
+4. Write as following
+5. @media only screen and (max-width:600px){
+    .slider{
+    		width: 600px;
+    	      }
+    .slider h1{
+        font-size: 18px;
+    }
+    .slider p{
+        left: 35%;
+        width: 250px;
+       
+    
+    }
+    .slider a{
+        top: 62%;
+        left: 50%;
+        padding: 5px 10px;
+    
+    }
+/* Header Part Responisive Start */
+    .cont{
+        width: 500px;
+        height: 60px;
+       
+    }
+    .menu ul li a{
+        text-decoration: none;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+    }
+    .head{
+        height: 60px;
+    }
+    .logo{
+        padding: 5px;
+        line-height: 50px;
+    }
+    .menu{
+        float:right;
+        line-height: 50px;
+    }
+
+ /* Header Part Responisive End */  
+
+
+}
+6. Create a new file as laptop.css and cut resposive code from html file & paste here
+7. Link to the Day7Index.html hint: <link rel="Stylesheet" media="screen and(width-max:600px)" href="laptop.css">
+
+
+
+	

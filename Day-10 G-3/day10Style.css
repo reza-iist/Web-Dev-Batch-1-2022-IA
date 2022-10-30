@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background: aqua;
+}
+.logo{
+    padding: 20px;
+    float: left;
+    line-height: 60px;
+}
+.logo p{
+    float: right;
+    padding-left: 20px;
+    font-size: 25px;
+    color: tomato;
+    /* line-height: 60px; */
+}
+.menu{
+    float:right;
+    line-height: 100px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    /* padding-top: 20px; */
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.menu ul li a:hover{
+    background: rgb(28, 244, 4);
+    padding: 10px;
+}
+/* Slider Part Start */
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    background:linear-gradient(45deg,rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ;
+    /* background:linear-gradient(145deg,red,green),url(./images/electrical-lab-5.jpg) ; */
+    /* background:radial-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ; */
+    /* background:conic-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ; */
+    /* background:radial-gradient(closest-side at 60% 55%, red, yellow, black),url(./images/electrical-lab-5.jpg) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 60vh;
+}
+.slider h1{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    color: #fff;
+
+}
+.slider h3{
+    color: yellow;
+}
+.slider p{
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    text-align: center;
+    color: #ccc;
+
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    background: pink;
+
+}
+.slider a:hover{
+    background: red;
+    color: #fff;
+}
+/* Slider Part End */
+/* Hero Part Start */
+.hero{
+    width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+span{
+    color: tomato;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.service-box{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,auto));
+    gap: 5px;
+}
+.card{
+    background: rgb(240, 152, 152);
+    padding: 15px;
+}
+
+.btn{
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border-color: tomato;
+    color: white;
+    box-shadow: 2px 2px blue;
+}
+.btn:hover{
+    color: tomato;
+}
+.card a{
+    margin-top: 10px;
+    text-decoration: none;
+    /* background: #000; */
+    border: 1px soild yellow;
+    padding: 10px 15px;
+}
+/* Hero Part End */
+
+/* Footer Part Start */
+footer{
+    background: #ccc;
+    padding: 10px;
+}
+.footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+    gap: 5px;
+
+}
+.footer-main .card{
+    background: rgb(101, 242, 131);
+    height: 230px;
+}
+
+.footer-bottom{
+    width: 1000px;
+    margin: 0 auto;
+    background: #aaa;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.social{
+    font-size: 20px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(25px,auto));
+}
+.social a{
+    position: relative;
+    left: 38%;
+}
+.social a:hover{
+    color: tomato;
+}
+.social img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    position: relative;
+    top: 9px;
+    
+}
+.social h3{
+    text-align: center;
+    color: tomato;
+}
+#xx{
+    color: tomato;
+}
+.ch2 img{
+    padding: 5px;
+    border: 2px solid tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+}
+
+/* Footer Part End */
+
+
+/* Animated Part Start */
+.animate{
+    animation: 7s move linear infinite;
+    position: relative;
+}
+@keyframes move{
+    /* from{background: rgb(242, 136, 136);}
+    to{background: rgb(44, 243, 21);} */
+
+    /* 0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;} */
+
+
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* Animated Part End */
+

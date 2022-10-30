@@ -1,0 +1,81 @@
+/* For Responsive Start */
+
+
+    .cont{
+        width: 100%;      
+    }
+    .head{
+        height: 60px; 
+    }
+    .logo{
+        padding: 10px;
+        line-height: 40px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .menu{
+        
+        line-height: 60px;
+    }
+   
+    .menu ul li a{  
+        font-size: 15px;
+    }
+    /* Slider Part Start */
+.slider{
+    width:100%;
+}
+.slider h1{
+    top: 34%;
+    color: rgb(244, 44, 44);
+ font-size: 18px;
+}
+
+.slider p{
+    
+    top: 40%;
+   
+    color: rgb(82, 5, 246);
+
+}
+.slider a{
+    
+    top: 57%;
+    left: 55%;
+     
+
+}
+
+/* Slider Part End */
+ /* Hero Part Start */
+.hero{
+    width: 100%;
+}
+span{
+    color: rgb(27, 247, 90);
+}
+
+.service-box{
+    margin-top: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+}
+.card{
+    background: rgb(240, 152, 152);
+    padding: 15px;
+}
+.card a{
+    /* background: #000; */
+    border: 1px soild yellow;
+    padding: 5px;
+}
+.card h1{
+    font-size: 18px;
+}
+.card p{
+    font-size: 10px;
+}
+/* Hero Part End */  
+   
